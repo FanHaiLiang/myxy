@@ -16,6 +16,7 @@ const fs      = require('fs'),
       jade    = require('gulp-jade'),//jade模板
       browserSync = require('browser-sync').create(),//浏览器实时刷新
       autoprefix  = require('gulp-autoprefixer');//添加前缀
+      
 const Config = require('./gulpfile.config.js');
 //删除dist下所有文件
 gulp.task('delete', function(cb){

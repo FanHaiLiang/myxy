@@ -1,0 +1,21 @@
+
+doctype html
+html
+  head
+    block baseHead
+      meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+      link(rel="stylesheet" href='./public/css/global.css')
+      link(rel="stylesheet", href="./public/css/bootstrap.min.css")
+  body
+    block baseBody
+      include ./nav.jade
+      button(class="btn btn-default" type="submit") Button
+      
+    block baseJS
+      script(src='./public/js/jquery.min.js')
+      script(src='./public/js/bootstrap.min.js')
+      script(src='./public/js/adapterScreen.js')
+      
+    block footer
+      p 我是footer
+    

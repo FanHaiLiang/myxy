@@ -1,0 +1,10 @@
+extends ./public/jade/base.jade
+
+block append baseHead
+  link(rel="stylesheet", href="./css/two.css")
+  
+block append baseBody
+  h1 我是第二个页面
+  a(href="./index.html") 跳index
+block append baseJS
+  script(src='./js/two.js')

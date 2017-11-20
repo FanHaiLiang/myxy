@@ -8,3 +8,4 @@
   * global: 全局样式
   * adapterScreen: rem适配屏幕
   * underscore.min.js js库
+  * store.min.js 本地储存库

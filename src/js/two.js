@@ -1,6 +1,3 @@
-function two(){
+(function(){
   console.log('two');
-}
-function test(){
-  console.log('test');
-}
+})()

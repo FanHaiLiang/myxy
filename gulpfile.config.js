@@ -21,11 +21,11 @@ var Config = {
     dist: DIST_DIR + 'images/'
   },
   publicJS: {
-    src : SRC_DIR  + 'public/*.js',
+    src : SRC_DIR  + 'public/js/*.js',
     dist: DIST_DIR + 'public/js/'
   },
   publicCSS: {
-    src : SRC_DIR + '*.css',
+    src : SRC_DIR + 'public/css/*.css',
     dist: DIST_DIR + 'public/css/'
   },
   del: {
